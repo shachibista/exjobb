@@ -1,8 +1,8 @@
 This is a simple REST-api written in python with the flask library.
 
 It serves two endpoints:
-1) _GET /questions_ which serves the questions that is displayed in the client application
-2) _POST /upload_ which receives the image upload
+* _GET /questions_ which serves the questions that is displayed in the client application
+* _POST /upload_ which receives the image upload
 
 # Questions endpoint
 
