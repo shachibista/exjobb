@@ -1,4 +1,4 @@
-Copyright (c) <2015> <Shachi Bista>
+Copyright (c) 2015 Shachi Bista
 
 **Please note! This is NOT the MIT-license --- even though it looks like one. Only the last clause is copied from the MIT license.**
 
