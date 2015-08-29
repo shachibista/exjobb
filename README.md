@@ -18,3 +18,27 @@ application framework for automated diagnosis of skin cancer. We develop a proto
 mobile application, develop strategies for integration of the application and support
 systems and explore algorithms for preprocessing and extraction of lesions from der-
 moscopic images.
+
+# Server
+
+The server code is situated inside the `server/` directory. The easiest way to configure it is
+using virtualenv. It depends on the python programming language, the other dependencies should
+be resolved using `pip`. A nice guide can be found here: http://docs.python-guide.org/en/latest/dev/virtualenvs/
+
+After installation (and entering the virtualenv), you can simply run "python server.py" and it
+should run the server.
+
+You must compile the image processor located in `server/services/backend/` by running `make` in
+that directory. It is a simple (unoptimised) image processor that takes an image and tries to 
+gather metrics required for a dermoscopic diagnosis. At the current stage, nothing is done to these
+metrics. It is a very slow process so it is not yet ready-for-use yet --- especially considering
+that the server blocks while the image is processed (thereby blocking the client) --- and exists
+purely as a proof-of-concept. There are many opportunities for optimisation such as using Opencv's
+`gpu` module and removing some of the intermediary steps as the code is written with readability
+and illustration in mind rather than speed.
+
+Again, *DO NOT* use any of these for production since it is very fragile.
+
+# Client
+
+Information on the client will go here once the code is cleaned up ...
