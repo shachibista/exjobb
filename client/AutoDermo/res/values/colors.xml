@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="contentBg">#fdf9f6ff</color>
+    <color name="textColour">#2e2e2d</color>
+    <color name="titleBarBg">#fffacaa5</color>
+    <color name="black">#000</color>
+</resources>

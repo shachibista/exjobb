@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<style name="CustomActionBar" parent="android:Widget.Holo.Light.ActionBar.Solid.Inverse">-->
+        <!--<item name="android:background">@color/titleBarBg</item>-->
+        <!--<item name="android:titleTextStyle">@style/CustomActionBarText</item>-->
+    <!--</style>-->
+    <!--<style name="CustomTheme" parent="android:Theme.Holo.Light.DarkActionBar">-->
+        <!--<item name="android:actionBarStyle">@style/CustomActionBar</item>-->
+    <!--</style>-->
+    <!--<style name="CustomActionBarText" parent="android:TextAppearance.Holo.Widget.ActionBar.Title">-->
+        <!--<item name="android:textColor">@color/textColour</item>-->
+    <!--</style>-->
+
+    <style name="CustomTheme" parent="android:Theme.NoTitleBar.Fullscreen">
+        <item name="android:textColor">@color/textColour</item>
+    </style>
+</resources>
