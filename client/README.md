@@ -1,4 +1,4 @@
-Client application - AutoDermo
+## Client application - AutoDermo
 
 The client appliction depends on the following libraries:
 
